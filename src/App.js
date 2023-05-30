@@ -1,12 +1,12 @@
 import Navbar from "./components/navbar";
-// import Hero from "./components/hero";
+import Hero from "./components/hero";
 import Footer from "./components/footer";
 import Section from "./components/section";
 function App() {
   return (
     <>
       <Navbar />
-      {/* <Hero /> */}
+      <Hero />
       <Section />
       <Footer />
     </>
